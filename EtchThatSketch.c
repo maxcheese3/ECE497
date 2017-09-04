@@ -58,8 +58,6 @@ int main()
 	else if (c == 'c'){
 		//Clear the screen
 		clear();
-		x=0;
-		y=HEIGHT;
 	}
 	else if (c == 'x'){
 		//exit
