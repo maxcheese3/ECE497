@@ -39,15 +39,3 @@ except KeyboardInterrupt:
     print("Cleaning Up");
     GPIO.cleanup();
 GPIO.cleanup();
-
-
-
-# ####Cycle through LEDs####
-# while True:
-#     for i in range(0, len(LEDs)):
-#         GPIO.output(LEDs[i], GPIO.HIGH)
-#         if i == 0:
-#             GPIO.output(LEDs[len(LEDs)-1], GPIO.LOW)
-#         GPIO.output(LEDs[i-1], GPIO.LOW)
-#         time.sleep(delay)
-
