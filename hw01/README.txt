@@ -13,3 +13,6 @@ Ryan Evans
 	* Has configureable WIDTH and HEIGHT settings.
 	* Compile with gcc -o <desiredname> EtchThatSketch.c -l ncurses
 
+# Comments from Prof. Yoder
+# Looks good.  Thanks for the update
+# Grade:  10/10
