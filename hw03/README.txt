@@ -15,3 +15,7 @@ HW03_Etch.py
 	Has configureable WIDTH and HEIGHT settings.
 	Run with python3 HW02_ETCH_A_SKETCH.py
 	September 19, 2017
+
+# Comments from Prof. Yoder
+# Looks good.
+# Grade:  10/10
