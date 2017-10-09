@@ -20,3 +20,8 @@ no
 Run boneServer.js just like normal.
 Modifications have been made to matrixLED.js
 and matrixLED.css
+
+# Comments from Prof. Yoder
+# Found your answers to the questions.  "stuff" is a bit broad.
+# Thanks for the demo.
+# Grade:  10/10
