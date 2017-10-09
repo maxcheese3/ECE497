@@ -18,3 +18,8 @@ hw04_ETCH_THAT_ENCODER.py
 
 hw04_GPIO.c
 	Not yet finished
+
+# Comments from Prof. Yoder
+# Found your memory map file
+# Looks good.
+# Grade:  10/10
