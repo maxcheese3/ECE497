@@ -17,8 +17,8 @@ http://cep.xor.aps.anl.gov/software/qt4-x11-4.2.2/qtopiacore-testingframebuffer.
 #include <sys/mman.h>
 #include <sys/ioctl.h>
 
-#include "/opt/source/Robotics_Cape_Installer/libraries/rc_usefulincludes.h"
-#include "/opt/source/Robotics_Cape_Installer/libraries/roboticscape.h"
+#include </opt/source/Robotics_Cape_Installer/libraries/rc_usefulincludes.h>
+#include </opt/source/Robotics_Cape_Installer/libraries/roboticscape.h>
 
 int main(int argc, char **argv)
 {
@@ -40,19 +40,24 @@ int main(int argc, char **argv)
     if(argc == 3) {
         clr = atoi(argv[1]);
         if (clr == 1) {
-            r = 14;
+            r = 31;
             g = 0;
             b = 0;
             printf("Red color will be used\n");
         } else if (clr == 2) {
             r = 0;
-            g = 17;
+            g = 63;
             b = 0;
             printf("Green color will be used\n");
         } else if (clr == 3) {
             r = 0;
             g = 0;
-            b = 17;
+            b = 31;
+            printf("Blue color will be used\n");
+        } else if (clr == 4) {
+            r = 31;
+            g = 63;
+            b = 31;
             printf("Blue color will be used\n");
         } else {
             r = 8;
@@ -70,28 +75,6 @@ int main(int argc, char **argv)
     } else {
         printf("Nonstandard inputs (int clr, int width) using default values.\n");
     }
-    
-    /*
-    printf("Choose a color. R-red, G-Green, B-Blue\n");
-    clr = getchar();
-    if (clr == 'R') {
-        r = 14;
-        g = 0;
-        b = 0;
-    } else if (clr == 'G') {
-        r = 0;
-        g = 17;
-        b = 0;
-    } else if (clr == 'B') {
-        r = 0;
-        g = 0;
-        b = 17;
-    } else {
-        r = 8;
-        g = 8;
-        b = 0;
-    }
-    */
 
 
     // Open the file for reading and writing
