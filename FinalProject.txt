@@ -1,0 +1,11 @@
+Pinball Machine:
+	2 Servo Paddles
+	Distance sensor to detect ball going through gap, score points
+	Buttons to hit
+		Hit variable bonus button colour for extra score
+			Bonus button colour displayed on RGB LED
+		Each button has its own colour (red, green, orange)
+	Play sounds
+		either USB audio dongle and speaker
+		or GPIO and buzzer
+	2 line LCD displaying score
