@@ -2,7 +2,7 @@ HW06 README
 Ryan Evans
 
 
-boris_education.png image isdisplayed by running ./on.sh and then rotate.sh.
+boris_education.png image is displayed by running ./on.sh and then rotate.sh.
 If you want to change the rotation you can edit rotate.sh
 (See documentationin rotate.sh for more details).
 
@@ -28,3 +28,8 @@ Default colour is brown.
 3:Green
 
 Width is 1-10 pixels
+
+// Comments from Prof. Yoder
+// MLooks good.
+// Late
+// Grade:  9/10
