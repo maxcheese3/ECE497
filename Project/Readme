@@ -1,0 +1,9 @@
+More information about this project can be found on its wiki page: https://elinux.org/ECE497_Project_BeagleBall
+
+BeagleBall is a pinball machine created using the BeagleBone Blue.
+
+Dependencies include the Robotics Cape libraries for interfacing with the servos
+  sudo apt-get install roboticscape
+  sudo pip3 install rcpy
+  
+  You need to create a pinball machine to use this of course.
